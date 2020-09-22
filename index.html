@@ -24,32 +24,35 @@
         <div class="img-wrapper">
             <img src="images/smile.jpg" alt="">
         </div>
-        <div class="banner">
+        <div class="banner" id="home">
             <h1>VIP CLEANERS</h1>
             <p>Your Friendly Neighborhood<br>Dry Cleaners Since 1985</p>
             <button>Discover Now</button>
         </div>
     </header>
 
+
+
     <section class="sidebar">
         <ul class="menu">
             <li class="menu-item">
-                <a href="home" class="menu-link" data-content="Home">Home</a>
-                <a href="about" class="menu-link" data-content="About Us">About Us</a>
-                <a href="hours" class="menu-link" data-content="Hours">Hours</a>
-                <a href="pricing" class="menu-link" data-content="Pricing">Pricing</a>
-                <a href="contact" class="menu-link" data-content="Contact">Contact</a>
+                <a href="#home" class="menu-link">Home</a>
+                <a href="#about" class="menu-link">About Us</a>
+                <a href="#pricing" class="menu-link">Pricing</a>
+                <a href="#contact" class="menu-link">Contact</a>
             </li>
         </ul>
     </section>
 
-    <section class="about-us">
+
+
+    <section class="about-us" id="about">
         <div class="section-header">
             <h1 class="section-heading">About Us</h1>
             <div class="underline"></div>
         </div>
-        <div class="services">
 
+        <div class="services">
             <div class="service">
                 <div class="service-header">
                     <i class="fab fa-shirtsinbulk"></i>
@@ -87,14 +90,38 @@
 
 
 
-
-
-
-    <section class="contact-us">
-        <div class="contact-header">
-            <h2>Contact Us</h2>
-            <p>We value and love our customers.  Feel free to contact us during store hours.  Please note that our store hours have temporarily changed due to the COVID-19 pandemic and we are maintaining proper social distancing guidelines to better serve you.</p>
+    <section class="pricing" id="pricing">
+        <div class="section-header">
+            <h1 class="section-heading">Pricing</h1>
+            <p>We offer competitive pricing on all our services.  Feel free to call with questions.</p>
+            <div class="underline"></div>
         </div>
+        <div class="pricing-table">
+            <table class="table" id="table">
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Men's Shirts</td>
+                    <td>$1.50</td>
+                </tr>
+                <tr>
+                    <td>Slacks</td>
+                    <td>$4.50</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <section class="contact-us" id="contact">
+        <div class="section-header">
+            <h1 class="section-heading">Contact Us</h1>
+            <p>We value and love our customers.  Feel free to contact us during store hours.  Please note that our store hours have temporarily changed due to the COVID-19 pandemic and we are maintaining proper social distancing guidelines to better serve you.</p>
+            <div class="underline"></div>
+        </div>
+
         <div class="contact-container">
             <div class="contact-info">
                 <div class="contact-box">
@@ -129,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="contact-form">
                 <form action="">
                     <h2>Send a Message</h2>
